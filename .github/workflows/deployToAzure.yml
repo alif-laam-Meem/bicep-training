@@ -39,6 +39,6 @@ jobs:
           scope: resourcegroup
           # Provide the name of a resource group, only required for resource Group deployments.
           resourceGroupName: rg-bicep-pipeline
-          template: main.biscep
+          template: main.bicep
           
           
