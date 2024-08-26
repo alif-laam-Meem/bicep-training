@@ -37,6 +37,8 @@ jobs:
         with:
           # Provide the scope of the deployment. Valid values are: 'resourcegroup', 'tenant', 'managementgroup', 'subscription'
           scope: resourcegroup
-          template: main.biscrp
+          # Provide the name of a resource group, only required for resource Group deployments.
+          resourceGroupName: rg-bicep-pipeline
+          template: main.biscep
           
           
